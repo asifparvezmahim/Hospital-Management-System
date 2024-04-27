@@ -1,0 +1,25 @@
+.logo{
+    margin-left: 10%;
+}
+
+.search_box{
+    margin-right: 10%;
+}
+
+.items{
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 420px){
+    .logo{
+        margin-left: 0%;
+    }
+    
+    .search_box{
+        margin-right: 0%;
+    }
+    
+    .items{
+        margin-left: 0%;
+    }
+}
