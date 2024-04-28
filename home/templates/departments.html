@@ -1,0 +1,18 @@
+{% load static %}
+{% block cssLink %} 
+<link rel="stylesheet" href="{% static "css/department.css" %} "> 
+{%endblock%} 
+{% block content %}
+<div class="dept_cont">
+    <div class="dept_title">
+        <p>We Have Sufficient Departments To Give Proper Services</p><br>
+    </div>
+
+    <div id="departments" class="dept_container">
+ 
+    </div>
+</div>
+{% endblock %}
+{% block jsLink %}
+<script src="{% static "js/department.js" %}"></script>
+{% endblock %}
